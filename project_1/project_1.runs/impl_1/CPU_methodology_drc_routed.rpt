@@ -1,0 +1,381 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri May 24 12:22:18 2019
+| Host         : DESKTOP-9SIE6QA running 64-bit major release  (build 9200)
+| Command      : report_methodology -file CPU_methodology_drc_routed.rpt -pb CPU_methodology_drc_routed.pb -rpx CPU_methodology_drc_routed.rpx
+| Design       : CPU
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 69
++-----------+----------+-----------------------+------------+
+| Rule      | Severity | Description           | Violations |
++-----------+----------+-----------------------+------------+
+| TIMING-14 | Warning  | LUT on the clock tree | 1          |
+| TIMING-20 | Warning  | Non-clocked latch     | 68         |
++-----------+----------+-----------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-14#1 Warning
+LUT on the clock tree  
+The LUT cpuclk_BUFG_inst_i_1 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[0] cannot be properly analyzed as its control pin ALU/alures_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[10] cannot be properly analyzed as its control pin ALU/alures_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[11] cannot be properly analyzed as its control pin ALU/alures_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[12] cannot be properly analyzed as its control pin ALU/alures_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[13] cannot be properly analyzed as its control pin ALU/alures_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[14] cannot be properly analyzed as its control pin ALU/alures_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[15] cannot be properly analyzed as its control pin ALU/alures_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[16] cannot be properly analyzed as its control pin ALU/alures_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[17] cannot be properly analyzed as its control pin ALU/alures_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[18] cannot be properly analyzed as its control pin ALU/alures_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[19] cannot be properly analyzed as its control pin ALU/alures_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[1] cannot be properly analyzed as its control pin ALU/alures_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[20] cannot be properly analyzed as its control pin ALU/alures_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[21] cannot be properly analyzed as its control pin ALU/alures_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[22] cannot be properly analyzed as its control pin ALU/alures_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[23] cannot be properly analyzed as its control pin ALU/alures_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[24] cannot be properly analyzed as its control pin ALU/alures_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[25] cannot be properly analyzed as its control pin ALU/alures_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[26] cannot be properly analyzed as its control pin ALU/alures_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[27] cannot be properly analyzed as its control pin ALU/alures_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[28] cannot be properly analyzed as its control pin ALU/alures_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[29] cannot be properly analyzed as its control pin ALU/alures_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[2] cannot be properly analyzed as its control pin ALU/alures_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[30] cannot be properly analyzed as its control pin ALU/alures_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[31] cannot be properly analyzed as its control pin ALU/alures_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[3] cannot be properly analyzed as its control pin ALU/alures_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[4] cannot be properly analyzed as its control pin ALU/alures_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[5] cannot be properly analyzed as its control pin ALU/alures_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[6] cannot be properly analyzed as its control pin ALU/alures_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[7] cannot be properly analyzed as its control pin ALU/alures_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[8] cannot be properly analyzed as its control pin ALU/alures_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch ALU/alures_reg[9] cannot be properly analyzed as its control pin ALU/alures_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch ALU/control/ALUctr_reg[0] cannot be properly analyzed as its control pin ALU/control/ALUctr_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch ALU/control/ALUctr_reg[1] cannot be properly analyzed as its control pin ALU/control/ALUctr_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch ALU/control/ALUctr_reg[2] cannot be properly analyzed as its control pin ALU/control/ALUctr_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch ALU/zero_reg cannot be properly analyzed as its control pin ALU/zero_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch MDR[-1111111080] cannot be properly analyzed as its control pin MDR[-1111111080]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch MDR[-1111111081] cannot be properly analyzed as its control pin MDR[-1111111081]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch MDR[-1111111082] cannot be properly analyzed as its control pin MDR[-1111111082]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch MDR[-1111111083] cannot be properly analyzed as its control pin MDR[-1111111083]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch MDR[-1111111084] cannot be properly analyzed as its control pin MDR[-1111111084]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch MDR[-1111111085] cannot be properly analyzed as its control pin MDR[-1111111085]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch MDR[-1111111086] cannot be properly analyzed as its control pin MDR[-1111111086]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch MDR[-1111111087] cannot be properly analyzed as its control pin MDR[-1111111087]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch MDR[-1111111088] cannot be properly analyzed as its control pin MDR[-1111111088]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch MDR[-1111111089] cannot be properly analyzed as its control pin MDR[-1111111089]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch MDR[-1111111090] cannot be properly analyzed as its control pin MDR[-1111111090]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch MDR[-1111111091] cannot be properly analyzed as its control pin MDR[-1111111091]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch MDR[-1111111092] cannot be properly analyzed as its control pin MDR[-1111111092]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch MDR[-1111111093] cannot be properly analyzed as its control pin MDR[-1111111093]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch MDR[-1111111094] cannot be properly analyzed as its control pin MDR[-1111111094]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch MDR[-1111111095] cannot be properly analyzed as its control pin MDR[-1111111095]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch MDR[-1111111096] cannot be properly analyzed as its control pin MDR[-1111111096]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch MDR[-1111111097] cannot be properly analyzed as its control pin MDR[-1111111097]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch MDR[-1111111098] cannot be properly analyzed as its control pin MDR[-1111111098]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch MDR[-1111111099] cannot be properly analyzed as its control pin MDR[-1111111099]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch MDR[-1111111100] cannot be properly analyzed as its control pin MDR[-1111111100]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch MDR[-1111111101] cannot be properly analyzed as its control pin MDR[-1111111101]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch MDR[-1111111102] cannot be properly analyzed as its control pin MDR[-1111111102]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch MDR[-1111111103] cannot be properly analyzed as its control pin MDR[-1111111103]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch MDR[-1111111104] cannot be properly analyzed as its control pin MDR[-1111111104]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch MDR[-1111111105] cannot be properly analyzed as its control pin MDR[-1111111105]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch MDR[-1111111106] cannot be properly analyzed as its control pin MDR[-1111111106]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch MDR[-1111111107] cannot be properly analyzed as its control pin MDR[-1111111107]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch MDR[-1111111108] cannot be properly analyzed as its control pin MDR[-1111111108]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch MDR[-1111111109] cannot be properly analyzed as its control pin MDR[-1111111109]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch MDR[-1111111110] cannot be properly analyzed as its control pin MDR[-1111111110]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch MDR[-1111111111] cannot be properly analyzed as its control pin MDR[-1111111111]/G is not reached by a timing clock
+Related violations: <none>
+
+

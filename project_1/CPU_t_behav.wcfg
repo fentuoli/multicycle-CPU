@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_t_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_t" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5447280000fs"></ZoomStartTime>
+      <ZoomEndTime time="5489324336fs"></ZoomEndTime>
+      <Cursor1Time time="270000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="49"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/CPU_t/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/inc" type="logic">
+      <obj_property name="ElementShortName">inc</obj_property>
+      <obj_property name="ObjectShortName">inc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/dec" type="logic">
+      <obj_property name="ElementShortName">dec</obj_property>
+      <obj_property name="ObjectShortName">dec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/IorD" type="logic">
+      <obj_property name="ElementShortName">IorD</obj_property>
+      <obj_property name="ObjectShortName">IorD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/writereg_mux" type="array">
+      <obj_property name="ElementShortName">writereg_mux[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writereg_mux[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/rt" type="array">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/rs" type="array">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/funct" type="array">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/DDU_addr" type="array">
+      <obj_property name="ElementShortName">DDU_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DDU_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/data" type="array">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/ALUout" type="array">
+      <obj_property name="ElementShortName">ALUout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/ALUsrcA_mux" type="array">
+      <obj_property name="ElementShortName">ALUsrcA_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUsrcA_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/ALUsrcB_mux" type="array">
+      <obj_property name="ElementShortName">ALUsrcB_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUsrcB_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/aluctr" type="array">
+      <obj_property name="ElementShortName">aluctr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluctr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/writedata_mux" type="array">
+      <obj_property name="ElementShortName">writedata_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata_mux[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/imm" type="array">
+      <obj_property name="ElementShortName">imm[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/writeaddr_mem" type="array">
+      <obj_property name="ElementShortName">writeaddr_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">writeaddr_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/readaddr_mem" type="array">
+      <obj_property name="ElementShortName">readaddr_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">readaddr_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/readdata" type="array">
+      <obj_property name="ElementShortName">readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/IorD_mux" type="array">
+      <obj_property name="ElementShortName">IorD_mux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IorD_mux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/writeaddr_mem" type="array">
+      <obj_property name="ElementShortName">writeaddr_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">writeaddr_mem[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/sign_extend" type="array">
+      <obj_property name="ElementShortName">sign_extend[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sign_extend[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/shift_left2" type="array">
+      <obj_property name="ElementShortName">shift_left2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_left2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/PCsource" type="array">
+      <obj_property name="ElementShortName">PCsource[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PCsource[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/REGFILE/register" type="array">
+      <obj_property name="ElementShortName">register[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_t/cpu/writedata_mux" type="array">
+      <obj_property name="ElementShortName">writedata_mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata_mux[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,14 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/homework/COD_LAB/lab5/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sim_1/new/CPU_t.v,1557753049,verilog,,,,CPU_t,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1557395711,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,,clk_wiz_0,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1557395711,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1558516657,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/ALU.v,,dist_mem_gen_0,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/ALU.v,1557835081,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/CPU.v,,CTR;alu,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/CPU.v,1558670910,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/control_code.v,,CPU,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/control_code.v,1557572974,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/regfile.v,,control_code,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/regfile.v,1557404032,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/seg.v,,regfile,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sources_1/new/seg.v,1557751803,verilog,,D:/homework/COD_LAB/lab5/project_1/project_1.srcs/sim_1/new/CPU_t.v,,seg_ctrl;segc,,,../../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
